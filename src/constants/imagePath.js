@@ -16,4 +16,15 @@ export default {
   addedImage: require('../assets/images/AddedMoney.png'),
   plusLogo: require('../assets/images/Health+care.png'),
   card: require('../assets/images/ezgif.com-webp-to-png.png'),
+  qrCode: require('../assets/images/qr-code.png'),
+  Balance: require('../assets/images/Cashback.png'),
+  Pat: require('../assets/images/PATGRA58063485516359_1616672718280.png'),
+  banner1:
+    'https://assetscdn1.paytm.com/images/catalog/view_item/741766/1613724962362.jpg?imwidth=758&impolicy=hq_80',
+  banner2:
+    'https://assetscdn1.paytm.com/images/catalog/view_item/723817/1617100626260.jpg?imwidth=758&impolicy=hq_80',
+  banner3:
+    'https://assetscdn1.paytm.com/images/catalog/view_item/793715/1617857547983.jpg?imwidth=758&impolicy=hq_80',
+  banner4:
+    'https://assetscdn1.paytm.com/images/catalog/view_item/741754/1613724842057.jpg?imwidth=758&impolicy=hq_80',
 };

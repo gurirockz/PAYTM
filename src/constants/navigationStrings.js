@@ -14,4 +14,5 @@ export default {
   SUPERMARKET: 'supermarket',
   SUPERMARKET_PRODUCTS_CATEGORY: 'supermarketProductsCategory',
   PRODUCT_LIST: 'productList',
+  DRAWER_ROUTES: 'drawerRoutes',
 };

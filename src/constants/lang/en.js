@@ -55,4 +55,6 @@ export default {
   RECHARGE_PAY_BILL: 'Wallet',
   CASHBACK: 'Enjoy up to 5% Cashback on all transactions',
   APPLY: 'Apply for Paytm First Credit Card',
+  SCAN_QR: 'Scan Any QR',
+  MY_PAYTM: 'My Paytm',
 };

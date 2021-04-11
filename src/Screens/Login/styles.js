@@ -21,6 +21,14 @@ export default StyleSheet.create({
     fontFamily: fontFamily.medium,
     marginTop: moderateScaleVertical(15),
   },
+  txtSmallWhite: {
+    ...commonStyles.mediumFont14,
+    lineHeight: 24,
+    textAlign: 'center',
+    fontFamily: fontFamily.medium,
+    marginTop: moderateScaleVertical(15),
+    color: colors.white,
+  },
   txtSmaller: {
     ...commonStyles.mediumFont12,
     lineHeight: 24,
@@ -89,6 +97,11 @@ export default StyleSheet.create({
     paddingRight: moderateScale(45),
     marginTop: moderateScaleVertical(20),
   },
+  myPaytmBox: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: moderateScaleVertical(20),
+  },
   payLogo: {
     height: 60,
     width: 60,
@@ -109,5 +122,24 @@ export default StyleSheet.create({
   creditCard: {
     marginLeft: moderateScale(60),
     marginRight: moderateScale(60),
+  },
+  creditCardImage: {height: 100, width: 150, alignSelf: 'center'},
+  scanButton: {
+    width: 160,
+    height: 55,
+    backgroundColor: colors.sapphire,
+    position: 'absolute',
+    bottom: 35,
+    alignSelf: 'center',
+    borderRadius: 50,
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+  },
+  qrScanner: {tintColor: colors.white, alignSelf: 'center'},
+  imageStyle: {
+    borderRadius: 15,
+    width: '90%',
+    marginTop: 5,
+    marginLeft: -25,
   },
 });
